@@ -1,17 +1,17 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: tarchimb_api
+  name: tarchimb-api
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: tarchimb_api
+      app: tarchimb-api
   template:
     metadata:
       labels:
-        app: tarchimb_api
+        app: tarchimb-api
     spec:
       containers:
       - image: wil42/playground:v1
-        name: tarchimb_api
+        name: tarchimb-api

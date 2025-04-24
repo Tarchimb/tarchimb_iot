@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: tarchimb_api_service
+  name: tarchimb-api-service
 spec:
   ports:
   - port: 80
     targetPort: 8888
   selector:
-    app: tarchimb_api
+    app: tarchimb-api
