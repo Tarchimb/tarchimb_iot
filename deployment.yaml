@@ -13,5 +13,5 @@ spec:
         app: tarchimb-api
     spec:
       containers:
-      - image: wil42/playground:v1
+      - image: wil42/playground:v2
         name: tarchimb-api
