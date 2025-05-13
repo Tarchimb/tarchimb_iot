@@ -13,6 +13,6 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: tarchimb-api-service
+            name: wil-api-service
             port:
               number: 80
