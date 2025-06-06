@@ -13,5 +13,5 @@ spec:
         app: wil-api
     spec:
       containers:
-      - image: wil42/playground:v2
+      - image: wil42/playground:vcacaboudin
         name: wil-api
